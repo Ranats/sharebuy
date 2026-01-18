@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "783482059568",
+    "project_id": "uchimemo-sharebuy-dc609",
+    "storage_bucket": "uchimemo-sharebuy-dc609.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783482059568:android:42cc1d3f6f61a013d5a6f5",
+        "android_client_info": {
+          "package_name": "com.example.sharebuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783482059568-fpvrb9q4cl3se2bso9s8ds40ppa7jtcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharebuy",
+            "certificate_hash": "a992a1e6c996db3f2c9dbdf389aa88850755564a"
+          }
+        },
+        {
+          "client_id": "783482059568-67untg46scsh13pokvhjqjbdrcjif2hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAetnTrUPJoOiv7izV4qphrZm36luCjy7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783482059568-67untg46scsh13pokvhjqjbdrcjif2hv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "783482059568-ukdrbllbeeaog76mqjpv2nue5p0jhahe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sharebuy"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783482059568:android:d90909f2803fde7cd5a6f5",
+        "android_client_info": {
+          "package_name": "com.uchimemo.sharebuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783482059568-i96qk3ht7r2o8iklqvfn4853e6o4pn5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uchimemo.sharebuy",
+            "certificate_hash": "a992a1e6c996db3f2c9dbdf389aa88850755564a"
+          }
+        },
+        {
+          "client_id": "783482059568-67untg46scsh13pokvhjqjbdrcjif2hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAetnTrUPJoOiv7izV4qphrZm36luCjy7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783482059568-67untg46scsh13pokvhjqjbdrcjif2hv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "783482059568-ukdrbllbeeaog76mqjpv2nue5p0jhahe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sharebuy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

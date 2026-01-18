@@ -1,0 +1,82 @@
+# ShareBuy (うちメモ) 開発タスク
+
+- [x] プロジェクト初期化
+    - [x] Flutterプロジェクト作成 (`com.example.sharebuy`)
+    - [x] 必要なパッケージの追加 (riverpod, firebase, go_router, etc.)
+    - [x] ディレクトリ構成の整備 (Feature-first)
+    - [x] AppTheme 定義 (Smart / Pop)
+- [/] 基盤実装
+    - [x] Firebase Config (Mock/File)
+    - [x] DI / Providers Setup (Riverpod)
+    - [x] Routing Setup (GoRouter)
+    - [x] Windows Debug Support (Patch CMake & Anon Login)
+- [x] 機能実装: Auth & Group
+    - [x] Login Screen
+    - [x] Group List (Hub)
+    - [x] Create / Join Group Logic
+- [/] 機能実装: List & Items
+    - [x] List Index
+    - [x] List Detail
+    - [x] Item Add/Edit
+    - [x] Item Undo Functionality
+- [x] 機能実装: Settings
+    - [x] Settings Screen
+    - [x] Theme Switcher
+- [x] 機能実装: Improvements (追加機能)
+    - [x] List Deletion (リスト削除)
+    - [x] Account Switcher / Logout Flow (アカウント切り替え)
+    - [x] Item Edit (アイテム編集)
+    - [x] **Implementing UX Improvements**
+    - [x] Mock Mode Persistence (SharedPrefs)
+    - [x] Item Interactions (Tap Check, Swipe Edit/Delete)
+    - [x] List Index Edit Mode (Bulk Delete)
+    - [x] Group Management (Edit/Delete Menu)
+    - [x] Item Drag & Drop Reordering (Anti-Flicker Optimistic Update)
+    - [x] Fix Item Order
+    - [x] Bulk Delete Completed Items
+    - [x] Fix Persistent SnackBar
+
+- [x] **UI/UX Polish (v0.5)**
+    - [x] **Empty States**: Better illustrations for empty lists/groups.
+    - [x] **Validation**: Prevent empty inputs.
+    - [x] **Loading States**: Add loading indicators to dialogs.
+    - [x] **Animations**: Entry animations for list items (`flutter_animate`).
+    - [x] **Mock Persistence**: Save data to `SharedPreferences` for dev convenience.
+
+- [ ] **Bug Fixes**
+    - [x] **Persistence**: Fix `Timestamp` JSON serialization error.
+    - [x] **Android Warning**: Investigate `setTopOnBackInvokedCallback` logs.
+    - [x] **Monetization (Ads)**
+        - [x] Add `google_mobile_ads`.
+        - [x] Configure `AndroidManifest`.
+        - [x] Create `AdBanner` widget.
+        - [x] Embed in Group/List screens.
+
+- [ ] **Release Readiness (v1.0 Goal)**
+    - [x] **Error Handling**: Global SnackBar for async errors (`AsyncValueUI`).
+    - [x] **Legal / About**:
+        - [x] About Page (Version info, App Name).
+        - [x] Links to Privacy Policy / Terms of Service.
+        - [x] License Page (`showLicensePage`).
+    - [x] **Assets**:
+        - [x] Launcher Icon (remind user).
+        - [x] Splash Screen (adjust native background color).
+
+- [x] **Real Backend Integration (v0.6)**
+    - [x] **Config**: Firebase Setup.
+    - [x] **Auth**: `FirebaseAuthRepository` implementation.
+    - [x] **Group**: `FirestoreGroupRepository` implementation.
+    - [x] **List/Item**: `FirestoreListRepository` implementation.
+    - [x] **Switch**: Toggle between Mock/Real via Field/Env.
+- [ ] 検証
+    - [x] Unit Tests
+    - [x] Integration Check
+    - [x] Build Check (Android)
+    - [x] Build Check (Windows)
+
+- [ ] **Store Release (Android)**
+    - [ ] **Signing**: Create `upload-keystore.jks` and `key.properties`.
+    - [ ] **Config**: Update `build.gradle` for release signing.
+    - [ ] **Build**: Generate App Bundle (`flutter build appbundle`).
+    - [ ] **Assets**: Prepare screenshots and store description.
+    - [ ] **Upload**: Google Play Console setup.

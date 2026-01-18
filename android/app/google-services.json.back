@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783482059568",
+    "project_id": "uchimemo-sharebuy-dc609",
+    "storage_bucket": "uchimemo-sharebuy-dc609.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783482059568:android:42cc1d3f6f61a013d5a6f5",
+        "android_client_info": {
+          "package_name": "com.example.sharebuy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAetnTrUPJoOiv7izV4qphrZm36luCjy7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
